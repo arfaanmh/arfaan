@@ -1,1 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arfaan | Transformation Marketing Specialist</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter', sans-serif;
+}
+
+body{
+background:#07070c;
+color:#fff;
+overflow-x:hidden;
+scroll-behavior:smooth;
+}
+
+header{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px 20px;
+background: radial-gradient(circle at top, rgba(212,175,55,0.15), transparent 60%),
+            radial-gradient(circle at bottom, rgba(80,80,255,0.1), transparent 60%);
+}
+
+h1{
+font-size:64px;
+font-weight:700;
+letter-spacing:-1px;
+}
+
+h2{
+font-size:20px;
+font-weight:400;
+color:#bdbdbd;
+margin-top:15px;
+max-width:700px;
+}
+
+.highlight{
+color:#d4af37;
+}
+
+.btn{
+margin-top:30px;
+padding:14px 28px;
+background:#d4af37;
+color:#000;
+font-weight:600;
+border-radius:10px;
+text-decoration:none;
+transition:0.3s ease;
+}
+
+.btn:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px rgba(212,175,55,0.4);
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:80px 20px;
+}
+
+.section{
+margin-bottom:80px;
+}
+
+.section h3{
+font-size:28px;
+margin-bottom:20px;
+color:#d4af37;
+}
+
+.card{
+background:rgba(255,255,255,0.03);
+border:1px solid rgba(255,255,255,0.08);
+padding:25px;
+border-radius:14px;
+transition:0.3s ease;
+}
+
+.card:hover{
+transform:translateY(-5px);
+border-color:rgba(212,175,55,0.4);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.stats{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.stat{
+flex:1;
+min-width:200px;
+text-align:center;
+padding:20px;
+background:rgba(255,255,255,0.03);
+border-radius:14px;
+}
+
+.stat h4{
+font-size:30px;
+color:#d4af37;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#666;
+border-top:1px solid rgba(255,255,255,0.1);
+font-size:13px;
+}
+
+.fade-in{
+animation:fadeIn 1.2s ease forwards;
+opacity:0;
+transform:translateY(20px);
+}
+
+@keyframes fadeIn{
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+</head>
+
+<body>
+
+<header class="fade-in">
+<h1>Arfaan Hussain</h1>
+<h2><span class="highlight">Transformation Marketing Specialist</span> building scalable growth systems, performance funnels, and revenue-driven digital strategies.</h2>
+<a class="btn" href="#contact">Let’s Work Together</a>
+</header>
+
+<div class="container">
+
+<!-- SUMMARY -->
+<div class="section fade-in">
+<h3>About</h3>
+<div class="card">
+Transformation-focused Marketing Manager with 7+ years of experience driving measurable growth across Qatar, UAE (Dubai), India, Canada, USA, and Germany. Generated over QAR 2.7M+ in revenue through performance-driven digital marketing, PPC, SEO, design, and web systems focused on scaling ROI and reducing acquisition costs.
+</div>
+</div>
+
+<!-- STATS -->
+<div class="section fade-in">
+<h3>Impact</h3>
+<div class="stats">
+<div class="stat">
+<h4>QAR 2.7M+</h4>
+<p>Revenue Generated</p>
+</div>
+<div class="stat">
+<h4>7+ Years</h4>
+<p>Experience</p>
+</div>
+<div class="stat">
+<h4>6 Countries</h4>
+<p>Global Reach</p>
+</div>
+</div>
+</div>
+
+<!-- SKILLS -->
+<div class="section fade-in">
+<h3>Expertise</h3>
+<div class="grid">
+<div class="card">Performance Marketing (Meta & Google Ads)</div>
+<div class="card">SEO & Organic Growth Systems</div>
+<div class="card">Conversion Rate Optimization</div>
+<div class="card">Brand Identity & Graphic Design</div>
+<div class="card">Website Development & Funnels</div>
+<div class="card">Data-Driven Growth Strategy</div>
+</div>
+</div>
+
+<!-- GLOBAL EXPERIENCE -->
+<div class="section fade-in">
+<h3>Global Experience</h3>
+<div class="card">
+Worked across high-growth markets including Qatar, UAE (Dubai), India, Canada, USA, and Germany, delivering scalable marketing systems, acquisition strategies, and revenue optimization frameworks for multiple industries.
+</div>
+</div>
+
+<!-- CTA -->
+<div class="section fade-in" id="contact">
+<h3>Work With Me</h3>
+<div class="card">
+<p>Looking to scale your business, reduce acquisition costs, or build a high-performance marketing system?</p>
+<br>
+<a class="btn" href="mailto:your@email.com">Contact Me</a>
+</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 Arfaan Hussain — Transformation Marketing Portfolio
+</footer>
+
+</body>
+</html>
